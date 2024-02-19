@@ -1,0 +1,240 @@
+2023-09-25T01:44:44+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T07:00:20+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T07:20:10+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/plugins/sumome.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/3rd-party.php:67
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/main.php(73): require()
+#1 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): rocket_init()
+#2 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#5 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#6 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#7 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#8 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#9 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/3rd-party.php on line 67
+
+2023-09-25T07:20:10+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/plugins/sumome.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/3rd-party.php:67
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/main.php(73): require()
+#1 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): rocket_init()
+#2 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#5 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#6 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#7 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#8 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#9 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/3rd-party/3rd-party.php on line 67
+
+2023-09-25T07:20:21+00:00 CRITICAL Uncaught TypeError: WP_Rocket\Engine\CriticalPath\ProcessorService::__construct(): Argument #1 ($data_manager) must be of type WP_Rocket\Engine\CriticalPath\DataManager, string given in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ProcessorService.php:31
+Stack trace:
+#0 [internal function]: WP_Rocket\Engine\CriticalPath\ProcessorService->__construct()
+#1 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/Definition.php(256): ReflectionClass->newInstanceArgs()
+#2 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/Definition.php(212): WP_Rocket\Dependencies\League\Container\Definition\Definition->resolveClass()
+#3 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/DefinitionAggregate.php(94): WP_Rocket\Dependencies\League\Container\Definition\Definition->resolve()
+#4 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Container.php(157): WP_Rocket\Dependencies\League\Container\Definition\DefinitionAggregate->resolve()
+#5 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ServiceProvider.php(62): WP_Rocket\Dependencies\League\Container\Container->get()
+#6 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/ServiceProvider/ServiceProviderAggregate.php(102): WP_Rocket\Engine\CriticalPath\ServiceProvider->register()
+#7 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Container.php(172): WP_Rocket\Dependencies\League\Container\ServiceProvider\ServiceProviderAggregate->register()
+#8 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Plugin.php(146): WP_Rocket\Dependencies\League\Container\Container->get()
+#9 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/main.php(50): WP_Rocket\Plugin->load()
+#10 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): rocket_init()
+#11 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#14 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#15 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#16 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#17 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#18 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ProcessorService.php on line 31
+
+2023-09-25T07:20:21+00:00 CRITICAL Uncaught TypeError: WP_Rocket\Engine\CriticalPath\ProcessorService::__construct(): Argument #1 ($data_manager) must be of type WP_Rocket\Engine\CriticalPath\DataManager, string given in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ProcessorService.php:31
+Stack trace:
+#0 [internal function]: WP_Rocket\Engine\CriticalPath\ProcessorService->__construct()
+#1 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/Definition.php(256): ReflectionClass->newInstanceArgs()
+#2 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/Definition.php(212): WP_Rocket\Dependencies\League\Container\Definition\Definition->resolveClass()
+#3 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Definition/DefinitionAggregate.php(94): WP_Rocket\Dependencies\League\Container\Definition\Definition->resolve()
+#4 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Container.php(157): WP_Rocket\Dependencies\League\Container\Definition\DefinitionAggregate->resolve()
+#5 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ServiceProvider.php(62): WP_Rocket\Dependencies\League\Container\Container->get()
+#6 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/ServiceProvider/ServiceProviderAggregate.php(102): WP_Rocket\Engine\CriticalPath\ServiceProvider->register()
+#7 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Dependencies/League/Container/Container.php(172): WP_Rocket\Dependencies\League\Container\ServiceProvider\ServiceProviderAggregate->register()
+#8 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Plugin.php(146): WP_Rocket\Dependencies\League\Container\Container->get()
+#9 /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/main.php(50): WP_Rocket\Plugin->load()
+#10 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): rocket_init()
+#11 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#12 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#14 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#15 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#16 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#17 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#18 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/wp-rocket/inc/Engine/CriticalPath/ProcessorService.php on line 31
+
+2023-09-25T07:20:29+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/SiteHealth.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:90
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(70): Automattic\Jetpack\Autoloader\jp758492a03acc6cf92e8bd74d1b199912\PHP_Autoloader::load_class()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Loader.php(55): Automattic\WooCommerce\Internal\Admin\Loader->__construct()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(194): Automattic\WooCommerce\Internal\Admin\Loader::get_instance()
+#3 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(98): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->hooks()
+#4 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#5 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#6 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#7 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#8 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#9 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#10 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#12 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#13 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#14 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#15 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#16 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2023-09-25T07:20:29+00:00 CRITICAL Uncaught Error: Class "WC_Abstract_Order" not found in /home/sdsons/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php:16
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php(54): include_once()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/includes/class-wc-autoloader.php(98): WC_Autoloader->load_file()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Admin/Overrides/Order.php(18): WC_Autoloader->autoload()
+#3 /home/sdsons/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(90): require('/home/sdsons/pu...')
+#4 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Schedulers/OrdersScheduler.php(38): Automattic\Jetpack\Autoloader\jp758492a03acc6cf92e8bd74d1b199912\PHP_Autoloader::load_class()
+#5 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Admin/ReportsSync.php(24): Automattic\WooCommerce\Internal\Admin\Schedulers\OrdersScheduler::init()
+#6 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(166): Automattic\WooCommerce\Admin\ReportsSync::init()
+#7 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(99): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#8 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(82): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#9 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#10 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#11 /home/sdsons/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#12 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Packages::on_init()
+#13 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#14 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#15 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#16 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#17 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#18 /home/sdsons/public_html/wp-blog-header.php(13): require_once('/home/sdsons/pu...')
+#19 /home/sdsons/public_html/index.php(17): require('/home/sdsons/pu...')
+#20 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php on line 16
+
+2023-09-25T11:02:07+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T12:06:38+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T14:48:38+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T15:44:46+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T18:03:50+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T19:31:48+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T21:18:01+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-09-25T21:23:49+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+

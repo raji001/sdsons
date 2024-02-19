@@ -1,0 +1,83 @@
+2023-10-26T01:09:42+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-10-26T02:12:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/plugins/master-addons/inc/classes/JLTMA_Ajax_Queries.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/plugins/master-addons/class-master-elementor-addons.php:386
+Stack trace:
+#0 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): MasterAddons\Master_Elementor_Addons->jltma_add_actions_to_elementor()
+#1 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#2 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/sdsons/public_html/wp-content/plugins/elementor/includes/plugin.php(658): do_action()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): Elementor\Plugin->init()
+#5 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#6 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/sdsons/public_html/wp-settings.php(632): do_action()
+#8 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#9 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#10 /home/sdsons/public_html/wp-cron.php(46): require_once('/home/sdsons/pu...')
+#11 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/master-addons/class-master-elementor-addons.php on line 386
+
+2023-10-26T02:12:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/plugins/yith-woocommerce-request-a-quote/plugin-fw/includes/privacy/class-yith-privacy.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/plugins/yith-woocommerce-request-a-quote/plugin-fw/yit-plugin.php:36
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/yith-woocommerce-request-a-quote/includes/class.yith-request-quote.php(145): require_once()
+#1 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): YITH_Request_Quote->plugin_fw_loader()
+#2 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /home/sdsons/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/sdsons/public_html/wp-settings.php(495): do_action()
+#5 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#6 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#7 /home/sdsons/public_html/wp-cron.php(46): require_once('/home/sdsons/pu...')
+#8 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/yith-woocommerce-request-a-quote/plugin-fw/yit-plugin.php on line 36
+
+2023-10-26T02:12:31+00:00 CRITICAL Uncaught Error: Failed opening required '/home/sdsons/public_html/wp-content/themes/astra/inc/builder/type/footer/above-footer/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/sdsons/public_html/wp-content/themes/astra/inc/builder/type/footer/above-footer/class-astra-above-footer.php:38
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/themes/astra/inc/builder/type/footer/above-footer/class-astra-above-footer.php(47): Astra_Above_Footer->__construct()
+#1 /home/sdsons/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(304): require_once('/home/sdsons/pu...')
+#2 /home/sdsons/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(251): Astra_Builder_Customizer->load_footer_components()
+#3 /home/sdsons/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /home/sdsons/public_html/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#5 /home/sdsons/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/sdsons/pu...')
+#6 /home/sdsons/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /home/sdsons/public_html/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /home/sdsons/public_html/wp-content/themes/astra/functions.php(160): require_once('/home/sdsons/pu...')
+#9 /home/sdsons/public_html/wp-settings.php(600): include('/home/sdsons/pu...')
+#10 /home/sdsons/public_html/wp-config.php(100): require_once('/home/sdsons/pu...')
+#11 /home/sdsons/public_html/wp-load.php(50): require_once('/home/sdsons/pu...')
+#12 /home/sdsons/public_html/wp-cron.php(46): require_once('/home/sdsons/pu...')
+#13 {main}
+  thrown in /home/sdsons/public_html/wp-content/themes/astra/inc/builder/type/footer/above-footer/class-astra-above-footer.php on line 38
+
+2023-10-26T03:36:06+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+
+2023-10-26T04:03:23+00:00 CRITICAL Uncaught InvalidArgumentException: The group "rocket-rucss" does not exist. in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:907
+Stack trace:
+#0 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php(799): ActionScheduler_DBStore->claim_actions()
+#1 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(157): ActionScheduler_DBStore->stake_claim()
+#2 /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(136): ActionScheduler_QueueRunner->do_batch()
+#3 /home/sdsons/public_html/wp-includes/class-wp-hook.php(310): ActionScheduler_QueueRunner->run()
+#4 /home/sdsons/public_html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 /home/sdsons/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#6 /home/sdsons/public_html/wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown in /home/sdsons/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 907
+

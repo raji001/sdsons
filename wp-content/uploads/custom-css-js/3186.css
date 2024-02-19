@@ -1,0 +1,117 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.qty-custom {
+    display: block !important;
+    margin-bottom: 5px; 
+}
+.qty {
+    width: 115px !important;
+    text-align: left !important;
+    border-radius: 6px !important;
+    border-color: #dedede !important;
+	border-width:2px !important;
+}
+.qty:focus {
+	border-style:solid !important;
+}
+.ywraq-form-table-wrapper.wide {
+	align-items:top;
+}
+.min-qty {
+	font-size:12px;
+}
+.form-column {
+	width:47%; 
+	float:left;
+	margin-right:2%;
+}
+.ywraq-form-table-wrapper.wide {
+	align-items:start !important;
+}
+.ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {
+	padding-top:1px;
+}
+.yith-ywraq-mail-form-wrapper h3 {
+	display:none;
+}
+.comments-area {
+	display:none;
+}
+	
+label.yith-qty-custome {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+}	
+label.yith-qty-custome span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.woocommerce .add-request-quote-button.button{
+    background-color: #1B296D !important;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hide-quote-btn .woocommerce .add-request-quote-button.button, .hide-quote-btn .yith-qty-custome,  .hide-quote-btn .quantity{
+	display:none !important;
+}
+.elementor-element .swiper .elementor-swiper-button-prev {
+	left:66%;
+}
+.tss-carousel-main:not(.swiper-rtl) .swiper-button-prev, .tss-carousel .swiper-button-prev {
+	left:-139px;
+}
+.wvg-gallery-thumbnail-image {
+	width:110px !important;
+	margin:auto !important;
+}
+
+/* Woocommerce responsive start */
+@media only screen and (max-width: 920px) {
+.woo-variation-product-gallery {
+	margin:auto;
+    padding-left: 12px !important;
+    padding-top: 12px !important;
+}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+	width:99% !important;
+}
+}
+/* Woocommerce responsive end */
+
+.ha-steps-icon{
+    background-color: #fff !important;
+    color: transparent !important;
+}
+.ha-step-arrow{
+    left: calc(100% + 0px) !important;
+}
+.ha-steps-icon {
+    padding: 0 !important
+}
+.elementor-3373 .elementor-element.elementor-element-d74a0ea .ha-step-arrow, .elementor-3373 .elementor-element.elementor-element-d74a0ea .ha-step-arrow:after{
+	display: none;
+}
+
+@media only screen and (max-width: 767px){
+    .ha-step-arrow{
+        top: -70% !important;
+    }
+    .ha-step-arrow {
+    left: calc(100% + 60px) !important;
+    
+}
+.ha-step-arrow{
+    z-index: -1 !important;
+}
+    .ha-steps-title{
+       background-color: #fff !important;
+        padding: 5px;
+    }
+	.elementor-3373 .elementor-element.elementor-element-d74a0ea .ha-step-arrow, .elementor-3373 .elementor-element.elementor-element-d74a0ea .ha-step-arrow:after{
+	display: block;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->
